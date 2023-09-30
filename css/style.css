@@ -1,0 +1,76 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap');
+
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+h1{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    background-image: linear-gradient(rgb(196, 196, 224),rgb(151, 24, 151));
+    height: 100vh;
+}
+.container{
+    border: 2px solid rgb(151, 102, 170) ;
+    max-width: 955px;
+    margin:auto;
+    height: 60vh;
+    padding: 33px;
+    margin-bottom: 23px;
+    overflow-y: scroll ;
+
+
+}
+.mes{
+    color: white;
+    background-color: rgb(179, 108, 155);
+    width: 25%;
+    border: 2px solid rgb(129, 50, 165);
+    border-radius: 7px ;
+    margin: 10px 5px;
+
+
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{    
+    max-width: 985px;
+    width: 100% ;
+    margin: auto;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#message{
+    width: 87%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 32px;
+    font-size: 22px;
+
+}
+.btn{
+    margin: 0 5px;
+    width: 9%;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 32px;
+    
+}
